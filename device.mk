@@ -474,7 +474,8 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi
+    hardware/xiaomi \
+    vendor/omni/build/soong
 
 # Telephony
 PRODUCT_PACKAGES += \

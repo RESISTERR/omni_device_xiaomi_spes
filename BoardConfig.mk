@@ -221,6 +221,11 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Platform
 BOARD_VENDOR := xiaomi
 TARGET_BOARD_PLATFORM := bengal
+QCOM_HARDWARE_VARIANT := sm8250
+MSMSTEPPE := sm6225
+TARGET_USES_MEDIA_EXTENSIONS := true
+TARGET_USES_QCOM_MM_AUDIO := true
+TARGET_USES_COLOR_METADATA := true
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
@@ -260,7 +265,8 @@ BOARD_VNDK_VERSION := current
 NEED_AIDL_NDK_PLATFORM_BACKEND := true
 
 # Sepolicy
-include device/xiaomi/spes/sepolicy/vndr/SEPolicy.mk
+include device/qcom/sepolicy_vndr/SEPolicy.mk
+include vendor/omni/sepolicy/sepolicy.mk
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 ifdef CR_VERSION
