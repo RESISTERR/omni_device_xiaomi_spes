@@ -1,0 +1,84 @@
+[ 
+   { 
+     "remote": "omnirom",
+     "repository": "android_device_qcom_sepolicy_vndr", 
+     "target_path": "device/qcom/sepolicy_vndr",
+     "revision": "android-13.0"
+   },
+   {
+     "remote": "omnirom",
+     "repository": "android_vendor_qcom_opensource_interfaces",
+     "target_path": "vendor/qcom/opensource/interfaces", 
+     "revision": "android-12.0"
+   },
+   { 
+     "remote": "gitlab", 
+     "repository": "android_vendor_qcom_opensource_display", 
+     "target_path": "vendor/qcom/opensource/display", 
+     "revision": "android-12.0"
+   },
+   {  
+     "remote": "gitlab",
+     "repository": "android_vendor_qcom_opensource_display-commonsys",
+     "target_path": "vendor/qcom/opensource/commonsys/display_custom", 
+     "revision": "android-12.0"
+   },
+   { 
+     "remote": "gitlab", 
+     "repository": "android_vendor_qcom_opensource_display-commonsys-intf", 
+     "target_path": "vendor/qcom/opensource/commonsys-intf/display", 
+     "revision": "android-12.0"
+   },
+   { 
+     "remote": "omnirom",
+     "repository": "android_vendor_codeaurora_telephony",
+     "target_path": "vendor/codeaurora/telephony", 
+     "revision": "android-12.0"
+   },
+   { 
+     "remote": "gitlab", 
+     "repository": "android_hardware_qcom_audio-sm8250", 
+     "target_path": "hardware/qcom-caf/sm8250/audio", 
+     "revision": "android-13.0"
+   },
+   { 
+     "remote": "gitlab", 
+     "repository": "android_hardware_qcom_media-sm8250", 
+     "target_path": "hardware/qcom-caf/sm8250/media", 
+     "revision": "android-13.0"
+   },
+   { 
+     "remote": "gitlab", 
+     "repository": "android_hardware_qcom_display-sm8250",
+     "target_path": "hardware/qcom-caf/sm8250/display", 
+     "revision": "android-13.0"
+   },
+   { 
+     "remote": "gitlab", 
+     "repository": "android_vendor_qcom_opensource_vibrator",
+     "target_path": "vendor/qcom/opensource/vibrator", 
+     "revision": "android-13.0"
+   },
+   { 
+     "remote": "gitlab", 
+     "repository": "android_hardware_qcom-caf_common", 
+     "target_path": "hardware/qcom-caf/common", 
+     "revision": "android-13.0"
+   },
+   { 
+     "remote": "omnirom",
+     "repository": "android_hardware_qcom_wlan", 
+     "target_path": "hardware/qcom-caf/wlan", 
+     "override": "platform/hardware/qcom/wlan", 
+     "revision": "android-13.0"
+   },
+   {
+     "remote": "LineageOS",
+     "repository": "android_packages_resources_devicesetting",
+     "target_path": "packages/resources/devicesettings",
+     "revision": "lineage-20.0"
+   },
+   { 
+     "remove": "platform/hardware/qcom/gps"
+   }
+]
